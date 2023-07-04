@@ -69,18 +69,18 @@
         default_layer {
             bindings = <
    &kp TAB   &kp Q   &kp W     &kp E   &kp R           &kp T            &kp Y   &kp U        &kp I     &kp O     &kp P  &kp BACKSPACE
- &kp LSHFT   &kp A   &kp S     &kp D   &kp F           &kp G            &kp H   &kp J        &kp K     &kp L    &kp UP      &kp ENTER
- &kp LCTRL   &kp Z   &kp X     &kp C   &kp V           &kp B            &kp N   &kp M    &kp SLASH  &kp LEFT  &kp DOWN      &kp RIGHT
-                            &kp LGUI  &hm LALT SPACE   &mo RAISE  &kp SPACE   &mo LOWER  &hm RCTRL INSERT
+ &kp LSHFT   &kp A   &kp S     &kp D   &kp F           &kp G            &kp H   &kp J        &kp K     &kp L    &kp SEMI      &kp ENTER
+ &kp LCTRL   &kp Z   &kp X     &kp C   &kp V           &kp B            &kp N   &kp M    &kp COMMA           &kp DOT  &kp QUESTION      &kp LALT
+                            &kp LGUI  &hm LALT SPACE   &mo RAISE  &kp LSHFT   &mo LOWER  &hm RCTRL INSERT
             >;
         };
 		// number and mouse keys
         layer_lower {
             bindings = <
- &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4             &kp N5           &kp N6           &kp N7           &kp N8         &kp N9            &kp N0  &kp MINUS
-   &mo SHIFT  &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK  &mkp LCLK  &mkp MCLK         &kp BSLH  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp EQUAL
-  &trans    &mwh SCROLL_HOR(-15)        &mmv MOVE_HOR(-1500)        &mmv MOVE_VERT(1500)        &mmv MOVE_HOR(1500)        &mwh SCROLL_HOR(15)  &trans  &trans     &kp QUESTION      &kp COMMA           &kp DOT     &trans
-                                            &trans        &trans  &trans           &kp LEFT_BRACE      &trans  &kp RIGHT_BRACE
+ &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4             &kp N5           &kp N6           &kp N7           &kp N8         &kp N9            &kp N0  &kp BACKSPACE
+   &mo SHIFT  &kp PLUS  &kp MINUS  &kp KP_MULTIPLY  &kp FSLH  &kp EQUAL  &kp LPAR  &kp RPAR    &kp LBRC  &kp RBRC  &kp SINGLE_QUOTE  &kp GRAVE
+  &trans  &trans  &trans  &trans  &trans  &trans      &kp LBKT  &kp RBKT    &kp LT    &kp GT           &kp PIPE     &kp UNDERSCORE
+                                            &trans        &trans  &trans           &trans        &trans  &trans
             >;
         };
 		// F key and media
@@ -96,9 +96,9 @@
         Layer_SHIFT {
             bindings = <
        &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY       &kp LPAR           &kp RPAR  &kp UNDERSCORE
-          &trans    &trans  &trans    &trans    &trans     &trans     &trans    &trans         &kp PIPE      &kp COLON  &kp DOUBLE_QUOTES        &kp PLUS
- &kp PRINTSCREEN    &trans  &trans    &trans    &trans     &trans     &trans    &trans           &trans  &kp LESS_THAN   &kp GREATER_THAN    &kp CAPSLOCK
-                                      &trans    &trans     &trans   &kp LBKT  &trans           &kp RBKT
+          &trans    &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK     &mkp LCLK  &mkp RCLK         &kp UP      &kptrans  &kp DOUBLE_QUOTES        &kp trans
+ &trans    &mwh SCROLL_HOR(-15)        &mmv MOVE_HOR(-1500)        &mmv MOVE_VERT(1500)        &mmv MOVE_HOR(1500)        &mwh SCROLL_HOR(15)     &trans    &kp LEFT  &kp DOWN      &kp RIGHT   &trans    &trans
+                                      &trans    &trans     &trans   &trans    &trans     &trans
             >;
         };
 
