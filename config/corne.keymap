@@ -70,8 +70,8 @@
             bindings = <
    &kp TAB   &kp Q   &kp W     &kp E   &kp R           &kp T            &kp Y   &kp U        &kp I     &kp O     &kp P  &kp BACKSPACE
  &kp LSHFT   &kp A   &kp S     &kp D   &kp F           &kp G            &kp H   &kp J        &kp K     &kp L    &kp UP      &kp ENTER
- &kp LCTRL   &kp Z   &kp X     &kp C   &kp V           &kp B            &kp N   &kp M    &kp SLASH  &kp LEFT  &kp DOWN      &kp RIGHT
-                            &kp LGUI  &hm LALT SPACE   &mo RAISE  &kp SPACE   &mo LOWER  &hm RCTRL INSERT
+ &kp LCTRL   &kp Z   &kp X     &kp C   &kp V           &kp B            &kp N   &kp M    &kp COMMA  &kp DOT  &kp QUESTION      &kp LALT
+                            &kp LGUI  &hm LALT SPACE   &mo RAISE  &kp LSHFT   &mo LOWER  &hm RCTRL INSERT
             >;
         };
 		// number and mouse keys
