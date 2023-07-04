@@ -77,10 +77,10 @@
 		// number and mouse keys
         layer_lower {
             bindings = <
- &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4             &kp N5           &kp N6           &kp N7           &kp N8         &kp N9            &kp N0  &kp MINUS
-   &mo SHIFT  &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK  &mkp LCLK  &mkp MCLK         &kp BSLH  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp EQUAL
-  &trans    &mwh SCROLL_HOR(-15)        &mmv MOVE_HOR(-1500)        &mmv MOVE_VERT(1500)        &mmv MOVE_HOR(1500)        &mwh SCROLL_HOR(15)  &trans  &trans     &kp QUESTION      &kp COMMA           &kp DOT     &trans
-                                            &trans        &trans  &trans           &kp LEFT_BRACE      &trans  &kp RIGHT_BRACE
+ &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4             &kp N5           &kp N6           &kp N7           &kp N8         &kp N9            &kp N0  &kp BACKSPACE
+   &mo SHIFT  &kp PLUS  &kp MINUS  &kp KP_MULTIPLY  &kp FSLH  &kp EQUAL  &kp LPAR  &kp RPAR    &kp LBRC  &kp RBRC  &kp SINGLE_QUOTE  &kp GRAVE
+  &trans  &trans  &trans  &trans  &trans  &trans      &kp LBKT  &kp RBKT    &kp LT    &kp GT           &kp PIPE     &kp UNDERSCORE
+                                            &trans        &trans  &trans           &trans      &trans  &trans
             >;
         };
 		// F key and media
