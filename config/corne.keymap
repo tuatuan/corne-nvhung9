@@ -80,7 +80,7 @@
  &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4             &kp N5           &kp N6           &kp N7           &kp N8         &kp N9            &kp N0  &kp BACKSPACE
    &mo SHIFT  &kp PLUS  &kp MINUS  &kp KP_MULTIPLY  &kp FSLH  &kp EQUAL  &kp LPAR  &kp RPAR    &kp LBRC  &kp RBRC  &kp SINGLE_QUOTE  &kp GRAVE
   &trans  &trans  &trans  &trans  &trans  &trans      &kp LBKT  &kp RBKT    &kp LT    &kp GT           &kp PIPE     &kp UNDERSCORE
-                                            &trans        &trans  &trans           &trans      &trans  &trans
+                                            &trans        &trans  &trans           &trans      &trans  &hm INSERT
             >;
         };
 		// F key and media
