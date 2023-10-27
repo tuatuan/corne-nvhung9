@@ -78,7 +78,7 @@
         layer_lower {
             bindings = <
  &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4             &kp N5           &kp N6           &kp N7           &kp N8         &kp N9            &kp N0  &kp BACKSPACE
-   &mo SHIFT  &kp PLUS  &kp MINUS  &kp KP_MULTIPLY  &kp FSLH  &kp EQUAL  &kp LPAR  &kp RPAR    &kp LBRC  &kp RBRC  &kp SINGLE_QUOTE  &kp GRAVE
+   &mo SHIFT  &kp PLUS  &kp MINUS  &kp KP_MULTIPLY  &kp SLASH  &kp EQUAL  &kp LPAR  &kp RPAR    &kp LBRC  &kp RBRC  &kp DOUBLE_QUOTES  &kp GRAVE
   &trans  &trans  &trans  &trans  &trans  &trans      &kp LBKT  &kp RBKT    &kp LT    &kp GT           &kp PIPE     &kp UNDERSCORE
                                             &trans        &trans  &trans           &trans      &trans  &hm RCTRL INSERT
             >;
@@ -87,7 +87,7 @@
         layer_raise {
             bindings = <
        &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp UP       &kp LPAR           &kp RPAR  &kp BACKSPACE
-       &trans    &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK     &mkp RCLK  &kp LEFT         &kp DOWN      &kp RIGHT  &kp DOUBLE_QUOTES        &trans
+       &trans    &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK     &mkp RCLK  &kp LEFT         &kp DOWN      &kp RIGHT  &kp SINGLE_QUOTE        &trans
        &trans    &mwh SCROLL_HOR(-15)        &mmv MOVE_HOR(-1500)        &mmv MOVE_VERT(1500)        &mmv MOVE_HOR(1500)        &mwh SCROLL_HOR(15)     &trans    &kp C_PREV    &kp C_PP    &kp C_NEXT   &trans    &trans
                                       &trans    &trans     &trans   &trans  &trans           &trans
             >;
